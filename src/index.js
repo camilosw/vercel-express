@@ -9,7 +9,7 @@ app.use(express.json());
 // Hello World route
 app.get("/", (req, res) => {
   res.json({
-    message: "Hello World 2!",
+    message: "Hello World 3!",
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV || "development",
   });
